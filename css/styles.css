@@ -1,0 +1,40 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+fieldset {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+legend {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.grupo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.grupo label {
+    width: 45%;
+}
+
+.grupo input {
+    width: 55%;
+    padding: 6px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
