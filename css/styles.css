@@ -68,3 +68,25 @@ table {
     font-size: 24px;
     text-decoration: none;
 }
+
+label {
+    display: inline-block;
+    width: 220px;
+    vertical-align: middle;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 6px;
+}
+
+label:has(+ input[required])::after {
+    content: " *";
+    color: red;
+    font-weight: bold;
+}
+

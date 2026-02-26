@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+    <form action="form-2.html">
+        <fieldset>
+            <legend>1. INFORMACIÓN GENERAL DEL PROVEEDOR</legend>
+
+            <label for="razon">RAZÓN SOCIAL / NOMBRE</label>
+            <input type="text" id="razon" required name="razon-social">
+            <br>
+
+            <label for="nit">NIT / CC</label>
+            <input type="text" id="nit" required name="nit-cc">
+            <br>
+
+            <label for="dv">DV</label>
+            <input type="text" id="dv" name="dv">
+            <br>
+
+            <label>NATURALEZA JURÍDICA</label>
+            <br>
+
+            <input type="radio" id="natural" name="naturaleza" value="natural">
+            <label for="natural">Persona natural</label>
+            <br>
+
+            <input type="radio" id="juridica" name="naturaleza" value="juridica">
+            <label for="juridica">Persona jurídica</label>
+            <br><br>
+
+            <label>TIPO DE SOCIEDAD (no aplica para persona natural)</label>
+            <br>
+
+            <input type="radio" id="sa" name="tipo-sociedad" value="sa">
+            <label for="sa">Sociedad anónima</label>
+            <br>
+
+            <input type="radio" id="ltda" name="tipo-sociedad" value="ltda">
+            <label for="ltda">Sociedad limitada</label>
+            <br>
+
+            <input type="radio" id="estatal" name="tipo-sociedad" value="estatal">
+            <label for="estatal">Empresa estatal</label>
+            <br>
+            
+            <input type="radio" id="unipersonal" name="tipo-sociedad" value="unipersonal">
+            <label for="unipersonal">Empresa unipersonal</label>
+            <br>
+
+            <input type="radio" id="sas" name="tipo-sociedad" value="sas">
+            <label for="sas">Sociedad por acciones simplificada</label>
+            <br>
+
+            <input type="radio" id="SCEE" name="tipo-sociedad" value="SCEE">
+            <label for="SCEE">Sucursal Colombia empresa extranjera</label>
+            <br>
+
+            <input type="radio" id="extranjera" name="tipo-sociedad" value="extranjera">
+            <label for="extranjera">Empresa extranjera</label>
+            <br>
+
+            <input type="radio" id="otra" name="tipo-sociedad" value="otra">
+            <label for="otra">Otra (Especifique)</label>
+            <br>
+
+            <input type="text" id="otra-tipo" name="otra-tipo" placeholder="Otra">
+        </fieldset>
+        <fieldset>
+            <legend>SEDE PRINCIPAL</legend>
+
+            <label for="direccion">DIRECCIÓN</label>
+            <input type="text" id="direccion" required name="direccion">
+            <br>
+
+            <label for="ciudad">CIUDAD</label>
+            <input type="text" id="ciudad" required name="ciudad">
+            <br>
+
+            <label for="departamento">DEPARTAMENTO</label>
+            <input type="text" id="departamento" required name="departamento">
+            <br>
+
+            <label for="pais">PAÍS</label>
+            <input type="text" id="pais" required name="pais">
+            <br>
+
+            <label for="tel">TELÉFONO (PRINCIPAL)</label>
+            <input type="text" id="tel" name="telefono">
+            <br>
+
+            <label for="ext">EXT</label>
+            <input type="text" id="ext" name="extension">
+            <br>
+
+            <label for="cel">CELULAR</label>
+            <input type="text" id="cel" name="celular">
+            <br>
+
+            <label for="fax">FAX</label>
+            <input type="text" id="fax" name="fax">
+            <br>
+
+            <label for="web">PÁGINA WEB</label>
+            <input type="text" id="web" name="pagina-web">
+            <br>
+
+            <label for="email">E-MAIL</label>
+            <input type="email" id="email" name="email">
+            <br>
+
+            <label for="otro">OTRO</label>
+            <input type="text" id="otro" name="otro">
+        </fieldset>
+
+        </fieldset>
+
+        <br>
+        <button type="submit">Siguiente</button>
+    </form>
+
+</body>
+
+</html>
